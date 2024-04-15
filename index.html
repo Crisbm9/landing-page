@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>JuegoAranjuez</title>
+        <link rel="icon" type="image/x-icon" href="pato.png" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+            <div class="container px-5">
+                <a class="navbar-brand" href="#page-top">Juego Aranjuez</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#comojugar">Como jugar</a></li>
+                        <li class="nav-item">
+                            <button id="botonSonido" src="sonido_apagado.png" onclick="controlarSonido()" class="botonSonido">
+                                <img src="playpause.png" width="25px"></button>
+                                <audio id="audio">
+                                <source src="rainy-day-in-town-with-birds-singing-194011.mp3" type="audio/mpeg">
+                                </audio>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Header-->
+        <header class="masthead text-center text-white">
+            <div class="masthead-content">
+                <div class="container px-5">
+                    <h1 class="masthead-heading mb-0">Juego Aranjuez</h1>
+                    <h2 class="masthead-subheading mb-0">Responde a nuestras preguntas sobre Aranjuez y descubre cuanto sabes</h2>
+                    <a class="btn btn-primary btn-xl rounded-pill mt-5 botonjuego animate__animated animate__bounce animate__delay-2s animate__infinite" href="#scroll">JUGAR</a>
+                </div>
+            </div>
+            <div class="bg-circle-1 bg-circle circulo1"></div>
+            <div class="bg-circle-2 bg-circle circulo2"></div>
+            <div class="bg-circle-3 bg-circle circulo3"></div>
+            <div class="bg-circle-4 bg-circle circulo4"></div>
+        </header>
+        <!-- Content section 1-->
+        <section id="scroll">
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-lg-6 order-lg-2">
+                        <div class="p-5">
+                            <!-- CARUSEL -->
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="principe.jpg" class="d-block w-100 img-fluid rounded-circle" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="fondoaranjuez.jpg" class="d-block w-100 img-fluid rounded-circle" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="aranjuezpalacio.jpg" class="d-block w-100 img-fluid rounded-circle" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            <!-- FIN CARRUSEL -->
+                        </div>
+                    </div>
+                    <div class="col-lg-6 order-lg-1">
+                        <div class="p-5">
+                            <h2 class="display-4 cj" id="comojugar">Como jugar</h2>
+                            <p>Tendrás que responder cual es la respuesta correcta entre nuestras 4 opciones a elegir</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Content section 2-->
+        <!-- <section>
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-lg-6">
+                        <div class="p-5"><img class="img-fluid rounded-circle" src="Jardin-isla.jpg" alt="..." /></div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="p-5">
+                            <h2 class="display-4">We salute you!</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <!-- Content section 3-->
+        <!-- <section>
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-lg-6 order-lg-2">
+                        <div class="p-5"><img class="img-fluid rounded-circle" src="principe.jpg" alt="..." /></div>
+                    </div>
+                    <div class="col-lg-6 order-lg-1">
+                        <div class="p-5">
+                            <h2 class="display-4">Let there be rock!</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+         -->
+        <!-- Footer-->
+        <footer class="py-5 bg-black">
+            <!-- <div class="container px-5"><p class="m-0 text-center text-white small">Copyright &copy; JuegoAranjuez 2024</p></div> -->
+            <footer class="footer text-center">
+                <div class="container">
+                    <div class="row">
+                        <!-- Footer Location-->
+                        <div class="col-lg-4 mb-5 mb-lg-0">
+                            <h4 class="text-uppercase mb-4">Localización</h4>
+                            <p class="lead mb-0">
+                                Plaza de Parejas
+                                <br />
+                                Aranjuez
+                            </p>
+                        </div>
+                        <!-- Footer Social Icons-->
+                        <div class="col-lg-4 mb-5 mb-lg-0">
+                            <h4 class="text-uppercase mb-4">Nuestras RRSS</h4>
+                            <a class="btn btn-outline-light btn-social mx-1" href="https://www.facebook.com/?locale=es_ES"><i class="fab fa-fw fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social mx-1" href="https://twitter.com/?lang=es"><i class="fab fa-fw fa-twitter"></i></a>
+                            <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                            
+                        </div>
+                        <!-- Footer About Text-->
+                        <div class="col-lg-4">
+                            <h4 class="text-uppercase mb-4">Mapa de Aranjuez</h4>
+                            <p class="lead mb-0">
+                            <a href="mapaAranjuez.jpg" download="mapaAranjuez.jpg">
+                                <button class="mapa"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-arrow-down" viewBox="0 0 16 16">
+                                    <path d="M8.5 6.5a.5.5 0 0 0-1 0v3.793L6.354 9.146a.5.5 0 1 0-.708.708l2 2a.5.5 0 0 0 .708 0l2-2a.5.5 0 0 0-.708-.708L8.5 10.293z"/>
+                                    <path d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2M9.5 3A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5z"/>
+                                  </svg> Descargar mapa</button>
+                            </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
