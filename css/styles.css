@@ -11023,3 +11023,9 @@ footer{
   transform: translateY(-50%); /* Center vertically */
   z-index: 10; /* Ensure it appears above other elements */
 }
+
+.botonintruccion{
+  align-items: center!important;
+  margin-left: 200px!important;
+  background-color: darkblue!important;
+}
