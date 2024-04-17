@@ -10926,13 +10926,15 @@ header.masthead .bg-circle-4 {
   width: 300px;
   font-size: 50px;
   background-color: #5c4fd0;
+  border: 2px solid black !important;
 }
 .botonjuego:hover{
   background: linear-gradient(90deg, rgba(208,212,30,1) 0%, rgba(34,121,9,1) 49%, rgba(254,255,0,0.70640756302521) 100%);
 }
 h1{
-  border-color: black; color: black!important;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-color: black; 
+  color: black!important;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 h2{
   font-size: large!important; color: black!important;
@@ -10957,7 +10959,7 @@ header{
 }
 .circulo4{
   background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(29,113,253,0.4739145658263305) 50%, rgba(252,176,69,1) 100%);
-  
+
 }
 
 .carousel{
