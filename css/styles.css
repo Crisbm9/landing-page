@@ -10976,3 +10976,50 @@ header{
 footer{
   color: whitesmoke!important;
 }
+
+#scroll-to-top {
+  position: fixed; /* Posicionamiento fijo */
+  bottom: 15px; /* Margen inferior */
+  right: 20px; /* Margen derecho */
+  background-color: #ddd; /* Color de fondo */
+  border: none; /* Quitar borde */
+  padding: 10px 20px; /* Relleno */
+  cursor: pointer; /* Indicador de cursor */
+  opacity: 0; /* Oculto inicialmente */
+  transition: opacity 0.5s ease; /* Transición de opacidad */
+  border-radius: 20%;
+}
+
+.scrolled #scroll-to-top {
+  opacity: 1; /* Visible al desplazarse */
+}
+
+.arriba{
+  width: 35px;
+  border-radius: 2px solid black;
+}
+
+.mapita{
+  width: 900px;
+  height: 400px;
+  /* align-items: center; */
+  margin-top: 5em;
+  margin-bottom: 2em;
+}
+
+[data-tooltip]:hover {
+  position: relative; /* Make the tooltip container relative */
+}
+
+[data-tooltip]:hover::after {
+  content: attr(data-tooltip); /* Display the tooltip text */
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  position: absolute; /* Position the tooltip absolutely */
+  left: 100%; /* Offset from the left edge */
+  top: 0; /* Offset from the top */
+  transform: translateY(-50%); /* Center vertically */
+  z-index: 10; /* Ensure it appears above other elements */
+}

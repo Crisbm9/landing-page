@@ -28,8 +28,9 @@
                         <li class="nav-item"><a class="nav-link" href="#page-top">Jugar</a></li>
                         <li class="nav-item"><a class="nav-link" href="#comojugar">Instrucciones</a></li>
                         <li class="nav-item">
+                            <span data-tooltip="audio on/off">
                             <button id="botonSonido" src="sonido_apagado.png" onclick="controlarSonido()" class="botonSonido">
-                                <img src="music-note-beamed.svg" width="25px"></button>
+                            <img src="music-note-beamed.svg" width="25px"></button></span>
                                 <audio id="audio">
                                 <source src="rainy-day-in-town-with-birds-singing-194011.mp3" type="audio/mpeg">
                                 </audio>
@@ -92,39 +93,7 @@
                 </div>
             </div>
         </section>
-        <!-- Content section 2-->
-        <!-- <section>
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="Jardin-isla.jpg" alt="..." /></div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="p-5">
-                            <h2 class="display-4">We salute you!</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-        <!-- Content section 3-->
-        <!-- <section>
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 order-lg-2">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="principe.jpg" alt="..." /></div>
-                    </div>
-                    <div class="col-lg-6 order-lg-1">
-                        <div class="p-5">
-                            <h2 class="display-4">Let there be rock!</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-         -->
+        <button id="scroll-to-top"><img class="arriba" src="arrow-up.svg"></button>
         <!-- Footer-->
         <footer class="py-5 bg-black">
             <!-- <div class="container px-5"><p class="m-0 text-center text-white small">Copyright &copy; JuegoAranjuez 2024</p></div> -->
@@ -139,6 +108,7 @@
                                 <br />
                                 Aranjuez
                             </p>
+                            
                         </div>
                         <!-- Footer Social Icons-->
                         <div class="col-lg-4 mb-5 mb-lg-0">
@@ -161,6 +131,10 @@
                             </p>
                         </div>
                     </div>
+                </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6109.641394609895!2d-3.613702915522295!3d40.03478249802754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4205bbb21a4e37%3A0x88c366a83b6c1cb3!2sPlaza%20de%20Parejas%2C%2028300%20Aranjuez%2C%20Madrid!5e0!3m2!1ses!2ses!4v1713345965194!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="mapita"></iframe>
+                <div class="copyright py-4 text-center text-white copy">
+                    <div class="container"><small>Copyright &copy; juegoaranjuez 2024</small></div>
                 </div>
             </footer>
         </footer>
