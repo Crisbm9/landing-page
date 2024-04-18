@@ -10934,7 +10934,7 @@ header.masthead .bg-circle-4 {
 h1{
   border-color: black; 
   color: black!important;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
 }
 h2{
   font-size: large!important; color: black!important;
@@ -10979,7 +10979,7 @@ footer{
 
 #scroll-to-top {
   position: fixed; /* Posicionamiento fijo */
-  bottom: 15px; /* Margen inferior */
+  bottom: 20px; /* Margen inferior */
   right: 20px; /* Margen derecho */
   background-color: #ddd; /* Color de fondo */
   border: none; /* Quitar borde */
@@ -11024,8 +11024,30 @@ footer{
   z-index: 10; /* Ensure it appears above other elements */
 }
 
-.botonintruccion{
-  align-items: center!important;
-  margin-left: 200px!important;
-  background-color: darkblue!important;
+.botoninstruccion{
+  margin-left: 50px;
+  background: linear-gradient(90deg, rgba(209,133,27,1) 0%, rgba(242,234,66,1) 100%);
+  color: black;
+  border-color: black;
+  font-size: large;
+  margin-bottom: 2em;
+}
+.botoninstruccion:hover{
+  background: linear-gradient(90deg, rgba(21,99,3,1) 0%, rgba(119,99,218,1) 100%);
+  border-color: black;
+}
+
+.botoncerrar{
+  background: linear-gradient(90deg, rgba(209,133,27,1) 0%, rgba(242,234,66,1) 100%);
+  border-color: black
+}
+.botoncerrar:hover{
+  border-color: black
+}
+
+
+h1 {
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
