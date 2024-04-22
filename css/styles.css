@@ -10942,7 +10942,6 @@ h2{
 }
 header{
   background-image: url('mapaAranjuez.jpg')!important;
- 
 }
 .circulo1{
   background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(29,113,253,0.07335434173669464) 50%, rgba(252,176,69,1) 100%);
@@ -11033,7 +11032,7 @@ footer{
   margin-bottom: 2em;
 }
 .botoninstruccion:hover{
-  background: linear-gradient(90deg, rgba(21,99,3,1) 0%, rgba(119,99,218,1) 100%);
+  background: orange;
   border-color: black;
 }
 
@@ -11051,3 +11050,7 @@ h1 {
   font-weight: 400;
   font-style: normal;
 }
+
+/* prueba boton nube */
+
+
