@@ -11025,14 +11025,14 @@ footer{
 
 .botoninstruccion{
   margin-left: 50px;
-  background: linear-gradient(90deg, rgba(209,133,27,1) 0%, rgba(242,234,66,1) 100%);
-  color: black;
-  border-color: black;
+  background: linear-gradient(90deg, rgba(209,133,27,1) 0%, rgba(242,234,66,1) 100%)!important;
+  color: black!important;
+  border-color: black!important;
   font-size: large;
   margin-bottom: 2em;
 }
 .botoninstruccion:hover{
-  background: orange;
+  background-color: #5c4fd0!important;
   border-color: black;
 }
 
