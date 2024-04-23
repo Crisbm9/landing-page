@@ -11030,6 +11030,7 @@ footer{
   border-color: black!important;
   font-size: large;
   margin-bottom: 2em;
+  margin-bottom: 3em!important;
 }
 .botoninstruccion:hover{
   background-color: #5c4fd0!important;
