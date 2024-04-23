@@ -10997,6 +10997,9 @@ footer{
   width: 35px;
   border-radius: 2px solid black;
 }
+.arribaboton{
+  border-radius: 100%;
+}
 
 .mapita{
   width: 900px;
@@ -11052,6 +11055,5 @@ h1 {
   font-style: normal;
 }
 
-/* prueba boton nube */
 
 
